@@ -51,6 +51,7 @@ function playFail() {
     failVid.style.visibility = "visible";
     reset.style.visibility = "visible";
     resetGame.style.visibility = "hidden";
+    resetBut.style.visibility = "visible";
     title.style.visibility = "hidden";
     hint.style.visibility = "visible";
     failVid.play();
@@ -61,7 +62,8 @@ function playFail() {
 function playMagic() {
     magicVid.style.visibility = "visible";
     resetGame.style.visibility = "visible";
-    reset.style.visibility = "hidden";
+    reset.style.visibility = "visible";
+    resetBut.style.visibility = "hidden";
     magicVid.play();
     magicVid.loop = 'true';
     password.value = "";
