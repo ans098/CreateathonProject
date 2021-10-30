@@ -10,7 +10,7 @@ body {
     z-index: 0;
 
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 25% 200% 25%;
+    grid-template-rows: 25% 190% 25%;
 }
 
 #title {
