@@ -61,7 +61,7 @@ video {
     padding: 20px;
     z-index: 1;
     postition: absolute; 
-    bottom 0;
+    bottom 20;
     justify-self: center;
 }
 
