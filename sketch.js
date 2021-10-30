@@ -35,6 +35,7 @@ reset.addEventListener('click', () => {
     failVid.style.visibility = "hidden";
     magicVid.style.visibility = "hidden";
     reset.style.visibility = "hidden";
+    resetBut.style.visibility = "hidden";
     resetGame.style.visibility = "hidden";
     title.style.visibility = "visible";
     hint.style.visibility = "hidden";
@@ -61,9 +62,9 @@ function playFail() {
 
 function playMagic() {
     magicVid.style.visibility = "visible";
+    resetBut.style.visibility = "hidden";
     resetGame.style.visibility = "visible";
     reset.style.visibility = "visible";
-    resetBut.style.visibility = "hidden";
     magicVid.play();
     magicVid.loop = 'true';
     password.value = "";
