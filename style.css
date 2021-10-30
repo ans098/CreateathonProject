@@ -77,8 +77,8 @@ video {
 @media only screen and (max-width: 850PX){
 
     body {
-        grid-template-columns: 25% 50% 25%;
-        grid-template-rows: 25% 230%;
+        grid-template-columns: 25%, 50%, 25%;
+        grid-template-rows: 25%, 50%, 25%;
     }
 
     #title {
