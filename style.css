@@ -17,7 +17,7 @@ body {
     font-family: "Cinzel Decorative", decorative, Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     z-index: 1;
-    grid-column: 2;
+    grid-column: 3;
     justify-self: center;
     color: floralwhite;
 }
