@@ -10,7 +10,7 @@ body {
     z-index: 0;
 
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 25% 300% 25%;
+    grid-template-rows: 25% 250% 25%;
 }
 
 #title {
@@ -20,6 +20,15 @@ body {
     grid-column: 2;
     justify-self: center;
     color: floralwhite;
+}
+
+#hint {
+    z-index: 1;
+    grid-column: 2;
+    justify-self: center;
+    color: floralwhite;
+    font-weight: bold;
+    visibility: hidden;
 }
 
 #mirror {

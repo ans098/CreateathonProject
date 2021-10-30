@@ -10,6 +10,7 @@ let passwordBox = document.querySelector('#passwordBox');
 let mirror = document.querySelector('#mirror');
 let failVid = document.querySelector('#fail');
 let magicVid = document.querySelector('#magic');
+let hint = document.querySelector('#hint');
 let correctPassword = 'mitochondria';
 
 // ------------------------------------------------------------
@@ -34,6 +35,7 @@ reset.addEventListener('click', ()=> {
     magicVid.style.visibility = "hidden";
     reset.style.visibility = "hidden";
     title.style.visibility = "visible";
+    hint.style.visibility = "hidden";
     failVid.pause();
     failVid.currentTime = 0;
     magicVid.pause();
@@ -47,6 +49,7 @@ reset.addEventListener('click', ()=> {
     failVid.style.visibility = "visible";
     reset.style.visibility = "visible";
     title.style.visibility = "hidden";
+    hint.style.visibility = "visible";
     failVid.play();
     password.value = "";
     passwordBox.style.visibility = "hidden";
