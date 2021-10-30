@@ -78,7 +78,7 @@ video {
 
     body {
         grid-template-columns: 25%, 50%, 25%;
-        grid-template-rows: 25%, 50%, 25%;
+        grid-template-rows: 25%, 230%;
     }
 
     #title {
