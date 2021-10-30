@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create-a-thon Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="canvas"></div>
+    <h1 id="title">What's the password?</h1>
+    <!-- created the door as a placeholder -->
+    <!-- <img src="assets/Mirror.png" alt="graphic of simple door" id="mirror"> -->
+    <video id="fail">
+        <source src="assets/Animation/Fail.mp4" type="video/mp4">
+        <!-- <source src="assets/Animation/Magic.mp4" type="video/mp4" id="magic"> -->
+    </video>
+    <video id="magic" height="100vh">
+        <source src="assets/Animation/Magic.mp4" type="video/mp4">
+    </video>
+    <div id="passwordBox">
+        <input type="text" name="password" id="password">
+        <button type="button" id="enter">Submit</button>
+    </div>
+    <div id="reset">
+        <button id="resetBut" type="reset">Try Again</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
