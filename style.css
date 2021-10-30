@@ -70,7 +70,7 @@ video {
 #reset {
     z-index: 1;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
     justify-self: center;
     margin-top: 60px;
     visibility: hidden;
