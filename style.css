@@ -58,8 +58,6 @@ video {
 
 #passwordBox {
     /* input is centered at the bottom at the screen */
-    #passwordBox {
-    /* input is centered at the bottom at the screen */
     padding: 20px;
     z-index: 1;
     grid-column: 2;
