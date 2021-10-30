@@ -15,21 +15,21 @@ let correctPassword = 'mitochondria';
 
 // ------------------------------------------------------------
 // password submission
- enter.addEventListener('click', ()=>{
-     console.log(password.value);
+enter.addEventListener('click', () => {
+    console.log(password.value);
 
-     let newPass = password.value.toLowerCase();
+    let newPass = password.value.toLowerCase();
 
-     if (newPass == correctPassword) {
-         console.log('right');
-         playMagic();
-     } else {
-         console.log('wrong');
-         playFail();
-     }
- });
+    if (newPass == correctPassword) {
+        console.log('right');
+        playMagic();
+    } else {
+        console.log('wrong');
+        playFail();
+    }
+});
 
-reset.addEventListener('click', ()=> {
+reset.addEventListener('click', () => {
     console.log('reset works');
     failVid.style.visibility = "hidden";
     magicVid.style.visibility = "hidden";
@@ -45,7 +45,7 @@ reset.addEventListener('click', ()=> {
     title.innerHTML = "What's the Password?!";
 })
 
- function playFail() {
+function playFail() {
     failVid.style.visibility = "visible";
     reset.style.visibility = "visible";
     title.style.visibility = "hidden";
@@ -53,15 +53,15 @@ reset.addEventListener('click', ()=> {
     failVid.play();
     password.value = "";
     passwordBox.style.visibility = "hidden";
- }
+}
 
- function playMagic() {
-     magicVid.style.visibility = "visible";
-     reset.style.visibility = "visible";
-     magicVid.play();
-     magicVid.loop = 'true';
-     password.value = "";
-     passwordBox.style.visibility = "hidden";
-     title.innerHTML = "Welcome!";
- }
+function playMagic() {
+    magicVid.style.visibility = "visible";
+    reset.style.visibility = "visible";
+    magicVid.play();
+    magicVid.loop = 'true';
+    password.value = "";
+    passwordBox.style.visibility = "hidden";
+    title.innerHTML = "Welcome!";
+}
 
