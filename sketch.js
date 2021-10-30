@@ -35,6 +35,7 @@ reset.addEventListener('click', () => {
     failVid.style.visibility = "hidden";
     magicVid.style.visibility = "hidden";
     reset.style.visibility = "hidden";
+    resetGame.style.visibility = "hidden";
     title.style.visibility = "visible";
     hint.style.visibility = "hidden";
     failVid.pause();
@@ -49,6 +50,7 @@ reset.addEventListener('click', () => {
 function playFail() {
     failVid.style.visibility = "visible";
     reset.style.visibility = "visible";
+    resetGame.style.visibility = "hidden";
     title.style.visibility = "hidden";
     hint.style.visibility = "visible";
     failVid.play();
