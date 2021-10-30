@@ -10,7 +10,7 @@ body {
     z-index: 0;
 
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 25% 100% 25%;
+    grid-template-rows: 25% 200% 25%;
 }
 
 #title {
@@ -58,10 +58,12 @@ video {
 
 #passwordBox {
     /* input is centered at the bottom at the screen */
+    #passwordBox {
+    /* input is centered at the bottom at the screen */
     padding: 20px;
     z-index: 1;
-    postition: absolute; 
-    bottom 20;
+    grid-column: 2;
+    grid-row: 3;
     justify-self: center;
 }
 
