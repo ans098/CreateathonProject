@@ -4,7 +4,8 @@ console.log('page is working');
 let title = document.querySelector('#title');
 let enter = document.querySelector('#enter');
 let reset = document.querySelector('#reset');
-let resetBut = document.querySelector('#resetbut');
+let resetBut = document.querySelector('#resetBut');
+let resetGame = document.querySelector('#resetGame');
 let password = document.querySelector('#password');
 let passwordBox = document.querySelector('#passwordBox');
 let mirror = document.querySelector('#mirror');
@@ -42,7 +43,7 @@ reset.addEventListener('click', () => {
     magicVid.currentTime = 0;
     password.value = "";
     passwordBox.style.visibility = "visible";
-    title.innerHTML = "What's the Password?!";
+    title.innerHTML = "Magic Miror on the wall, who's the most powerful one of all?";
 })
 
 function playFail() {
@@ -57,11 +58,11 @@ function playFail() {
 
 function playMagic() {
     magicVid.style.visibility = "visible";
-    reset.style.visibility = "visible";
+    resetGame.style.visibility = "visible";
     magicVid.play();
     magicVid.loop = 'true';
     password.value = "";
     passwordBox.style.visibility = "hidden";
-    title.innerHTML = "Welcome!";
+    title.innerHTML = "Yes!";
 }
 
