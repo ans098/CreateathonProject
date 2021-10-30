@@ -45,7 +45,7 @@ reset.addEventListener('click', () => {
     magicVid.currentTime = 0;
     password.value = "";
     passwordBox.style.visibility = "visible";
-    title.innerHTML = "Magic Miror on the wall, who's the most powerful one of all?";
+    title.innerHTML = "Magic Miror on the wall,<br>who's the most powerful one of all?";
 })
 
 function playFail() {
@@ -69,6 +69,6 @@ function playMagic() {
     magicVid.loop = 'true';
     password.value = "";
     passwordBox.style.visibility = "hidden";
-    title.innerHTML = "Yes!";
+    title.innerHTML = "Yes! <br>Such Power!";
 }
 
